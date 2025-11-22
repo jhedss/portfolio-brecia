@@ -113,7 +113,14 @@ export default function App() {
               </div>
             </div>
             <div className="hero-image" aria-hidden>
-              <img src="/jhedoo.jpeg" alt="Profile photo" />
+              <img
+                src="/jhedoo.jpeg"
+                alt="Profile photo"
+                onError={(e) => {
+                  const svg = encodeURIComponent(`<svg xmlns='http://www.w3.org/2000/svg' width='400' height='400'><rect width='100%' height='100%' fill='%237c3aed'/><text x='50%' y='50%' dominant-baseline='middle' text-anchor='middle' font-family='Poppins, sans-serif' font-size='72' fill='white'>J</text></svg>`)
+                  e.currentTarget.src = `data:image/svg+xml;charset=UTF-8,${svg}`
+                }}
+              />
             </div>
           </div>
         </section>
@@ -122,7 +129,14 @@ export default function App() {
         <section id="about" className="section about">
           <div className="container about-inner">
             <div className="about-photo">
-              <img src="/jhedoo.jpeg" alt="Profile photo" />
+              <img
+                src="/jhedoo.jpeg"
+                alt="Profile photo"
+                onError={(e) => {
+                  const svg = encodeURIComponent(`<svg xmlns='http://www.w3.org/2000/svg' width='400' height='400'><rect width='100%' height='100%' fill='%237c3aed'/><text x='50%' y='50%' dominant-baseline='middle' text-anchor='middle' font-family='Poppins, sans-serif' font-size='72' fill='white'>J</text></svg>`)
+                  e.currentTarget.src = `data:image/svg+xml;charset=UTF-8,${svg}`
+                }}
+              />
             </div>
             <div className="about-text">
               <h2>About Me</h2>
