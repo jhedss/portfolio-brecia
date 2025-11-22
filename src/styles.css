@@ -348,3 +348,46 @@ input:focus, textarea:focus { outline: none; border-color: var(--accent-color); 
 }
 
 /* --- End imported stylesheet --- */
+
+/* Modal styles used by ProjectCard preview */
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.6);
+  display: grid;
+  place-items: center;
+  z-index: 2000;
+  padding: 20px;
+}
+.modal {
+  width: min(1000px, 96%);
+  max-height: 90vh;
+  background: var(--card-bg, #111);
+  color: var(--text-color, #fff);
+  border-radius: 12px;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.6);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+.modal-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 16px;
+  border-bottom: 1px solid var(--border-color, #222);
+}
+.modal-body {
+  padding: 14px;
+  overflow: auto;
+}
+.readme-pre {
+  white-space: pre-wrap;
+  background: rgba(0,0,0,0.04);
+  padding: 12px;
+  border-radius: 8px;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, 'Courier New', monospace;
+  color: var(--muted-text, #999);
+}
+.readme-wrap .link { display: inline-block; margin-bottom: 10px; color: var(--accent-color); }
+

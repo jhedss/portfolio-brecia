@@ -139,30 +139,30 @@ export default function App() {
             <h2>Projects</h2>
             <div className="projects-grid">
               <article className="card">
-                <img src="/prof.jpg" alt="Project screenshot" />
+                <img src="Taskflow.png" alt="Project screenshot" />
                 <div className="card-content">
-                  <h3>Project One</h3>
-                  <p>A simple landing page with smooth scroll and responsive layout.</p>
+                  <h3>TaskFlow</h3>
+                  <p>A simple web app for managing tasks with add, delete, and priority features..</p>
                   <div className="tags"><span>HTML</span><span>CSS</span><span>JS</span></div>
-                  <div className="card-actions"><a className="btn small outline" href="#" target="_blank" rel="noopener">GitHub</a></div>
+                  <div className="card-actions"><a className="btn small outline" href="https://github.com/blueztian/task-flow" target="_blank" rel="noopener">GitHub</a></div>
                 </div>
               </article>
               <article className="card">
-                <img src="https://via.placeholder.com/640x360" alt="Project screenshot" />
+                <img src="eco-commerce.png" alt="Project screenshot" />
                 <div className="card-content">
-                  <h3>Project Two</h3>
-                  <p>A portfolio gallery with filterable categories and lightbox.</p>
+                  <h3>Eco-commerce</h3>
+                  <p>EcoCommerce is a green-focused e-commerce site promoting sustainable shopping with a clean, nature-inspired design..</p>
                   <div className="tags"><span>HTML</span><span>CSS</span><span>JS</span></div>
-                  <div className="card-actions"><a className="btn small outline" href="#" target="_blank" rel="noopener">GitHub</a></div>
+                  <div className="card-actions"><a className="btn small outline" href="https://github.com/blueztian/eco-commerce" target="_blank" rel="noopener">GitHub</a></div>
                 </div>
               </article>
               <article className="card">
-                <img src="https://via.placeholder.com/640x360" alt="Project screenshot" />
+                <img src="simple-library-system.png" alt="Project screenshot" />
                 <div className="card-content">
-                  <h3>Project Three</h3>
-                  <p>A simple to-do app with local storage and dark mode.</p>
-                  <div className="tags"><span>HTML</span><span>CSS</span><span>JS</span></div>
-                  <div className="card-actions"><a className="btn small outline" href="#" target="_blank" rel="noopener">GitHub</a></div>
+                  <h3>Simple-Library-System</h3>
+                  <p>A simple, user-friendly system for managing books and tracking borrowers with easy lending tools."</p>
+                  <div className="tags"><span>HTML</span><span>CSS</span><span>JS</span><span>PHP</span></div>
+                  <div className="card-actions"><a className="btn small outline" href="https://github.com/blueztian/simple-library-system" target="_blank" rel="noopener">GitHub</a></div>
                 </div>
               </article>
             </div>
