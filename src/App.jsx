@@ -100,8 +100,8 @@ export default function App() {
         </div>
       </header>
 
-      <main id="home">
-        {/* Hero */}
+	   <main id="home">
+        {/* Hero Section */}
         <section className="section hero">
           <div className="container hero-inner">
             <div className="hero-text">
@@ -112,31 +112,17 @@ export default function App() {
                 <a className="btn outline" href="#contact">Hire Me</a>
               </div>
             </div>
-            <div className="hero-image" aria-hidden>
-              <img
-                src="/jhedoo.jpeg"
-                alt="Profile photo"
-                onError={(e) => {
-                  const svg = encodeURIComponent(`<svg xmlns='http://www.w3.org/2000/svg' width='400' height='400'><rect width='100%' height='100%' fill='%237c3aed'/><text x='50%' y='50%' dominant-baseline='middle' text-anchor='middle' font-family='Poppins, sans-serif' font-size='72' fill='white'>J</text></svg>`)
-                  e.currentTarget.src = `data:image/svg+xml;charset=UTF-8,${svg}`
-                }}
-              />
+            <div className="hero-image" aria-hidden="true">
+              <img src="/jhedoo.png" alt="Profile photo" />
             </div>
           </div>
         </section>
 
-        {/* About */}
+        {/* About Section */}
         <section id="about" className="section about">
           <div className="container about-inner">
             <div className="about-photo">
-              <img
-                src="/jhedoo.jpeg"
-                alt="Profile photo"
-                onError={(e) => {
-                  const svg = encodeURIComponent(`<svg xmlns='http://www.w3.org/2000/svg' width='400' height='400'><rect width='100%' height='100%' fill='%237c3aed'/><text x='50%' y='50%' dominant-baseline='middle' text-anchor='middle' font-family='Poppins, sans-serif' font-size='72' fill='white'>J</text></svg>`)
-                  e.currentTarget.src = `data:image/svg+xml;charset=UTF-8,${svg}`
-                }}
-              />
+              <img src="/jhedoo.png" alt="Profile photo" />
             </div>
             <div className="about-text">
               <h2>About Me</h2>
@@ -145,6 +131,7 @@ export default function App() {
             </div>
           </div>
         </section>
+
 
         {/* Projects */}
         <section id="projects" className="section projects">
