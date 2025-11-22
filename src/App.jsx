@@ -113,7 +113,7 @@ export default function App() {
               </div>
             </div>
             <div className="hero-image" aria-hidden>
-              <img src="/jhedo.png" alt="Profile photo" />
+              <img src="/jhedoo.jpeg" alt="Profile photo" />
             </div>
           </div>
         </section>
@@ -122,7 +122,7 @@ export default function App() {
         <section id="about" className="section about">
           <div className="container about-inner">
             <div className="about-photo">
-              <img src="/jhedo.png" alt="Profile photo" />
+              <img src="/jhedoo.jpeg" alt="Profile photo" />
             </div>
             <div className="about-text">
               <h2>About Me</h2>
