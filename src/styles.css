@@ -1,0 +1,28 @@
+:root{
+  --bg:#0f1724;
+  --card:#0b1220;
+  --muted:#94a3b8;
+  --accent:#7c3aed;
+  --text:#e6eef8;
+}
+*{box-sizing:border-box}
+body{margin:0;font-family:Inter,system-ui,Segoe UI,Roboto,'Helvetica Neue',Arial; background:linear-gradient(180deg,var(--bg),#071029); color:var(--text);}
+.container{max-width:1000px;margin:0 auto;padding:24px}
+.site-header{backdrop-filter:blur(6px);position:sticky;top:0;background:rgba(6,10,18,0.55);border-bottom:1px solid rgba(255,255,255,0.02)}
+.header-inner{display:flex;align-items:center;justify-content:space-between}
+.brand{font-weight:700}
+.header-inner nav a{color:var(--muted);text-decoration:none;margin-left:16px}
+.hero{padding:56px 0}
+.hero h1{font-size:clamp(28px,5vw,44px);margin:0}
+.lead{color:var(--muted);margin-top:8px}
+.projects{margin-top:32px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px}
+.card{background:linear-gradient(180deg,rgba(255,255,255,0.02),transparent);padding:18px;border-radius:8px;border:1px solid rgba(255,255,255,0.03)}
+.card h3{margin:0 0 8px 0}
+.desc{color:var(--muted);margin:0 0 12px 0}
+.tag{display:inline-block;background:rgba(255,255,255,0.03);padding:6px 8px;border-radius:999px;margin-right:6px;color:var(--muted);font-size:13px}
+.card-actions a{color:var(--accent);text-decoration:none;font-weight:600}
+.contact{margin-top:36px}
+.site-footer{padding:18px 24px;text-align:center;color:var(--muted);border-top:1px solid rgba(255,255,255,0.02);margin-top:48px}
+
+@media (max-width:520px){.header-inner nav a{margin-left:12px;padding:6px}}
