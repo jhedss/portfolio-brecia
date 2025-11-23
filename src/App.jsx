@@ -106,7 +106,7 @@ export default function App() {
           <div className="container hero-inner">
             <div className="hero-text">
               <h1>Hi, I'm Jhedoo</h1>
-              <p className="tagline">Front-end developer who loves clean design.</p>
+              <p className="tagline">Third-year CS student and design enthusiast, exploring front-end one project at a time.</p>
               <div className="hero-actions">
                 <a className="btn primary" href="#projects">View Projects</a>
                 <a className="btn outline" href="#contact">Hire Me</a>
@@ -126,8 +126,8 @@ export default function App() {
             </div>
             <div className="about-text">
               <h2>About Me</h2>
-              <p>I'm a beginner-friendly developer who enjoys building simple and responsive websites. I focus on accessibility, performance, and modern UI with a clean look.</p>
-              <p>When I'm not coding, I like learning new tools and improving my design sense.</p>
+              <p>I'm a third-year Computer Science student at Pamantasan ng Cabuyao (UC), passionate about learning and exploring the world of technology. I enjoy building simple, responsive, and user-friendly websites that prioritize accessibility, performance, and modern design.</p>
+              <p>Beyond coding, I love experimenting with new tools, enhancing my design skills, and staying up-to-date with the latest trends in tech. I'm always eager to take on projects that challenge me and help me grow as a developer.</p>
             </div>
           </div>
         </section>
