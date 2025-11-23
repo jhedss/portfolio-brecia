@@ -424,11 +424,20 @@ input:focus, textarea:focus { outline: none; border-color: var(--accent-color); 
 
 @media (max-width: 800px) {
   .about-inner {
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
     gap: 20px;
   }
   .about-photo {
     margin-top: 0;
+    height: auto;
+    max-height: none;
+  }
+  .about-photo img {
+    height: auto;
+    max-height: none;
+    width: 100%;
+    object-fit: contain;
   }
 }
 
