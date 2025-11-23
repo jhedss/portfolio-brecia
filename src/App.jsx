@@ -105,7 +105,7 @@ export default function App() {
         <section className="section hero">
           <div className="container hero-inner">
             <div className="hero-text">
-              <h1>Hi, I'm Jhedoo</h1>
+              <h1>Hi, I'm Mark Jhed</h1>
               <p className="tagline">Third-year CS student and design enthusiast, exploring front-end one project at a time.</p>
               <div className="hero-actions">
                 <a className="btn primary" href="#projects">View Projects</a>
@@ -128,6 +128,13 @@ export default function App() {
               <h2>About Me</h2>
               <p>I'm a third-year Computer Science student at Pamantasan ng Cabuyao (UC), passionate about learning and exploring the world of technology. I enjoy building simple, responsive, and user-friendly websites that prioritize accessibility, performance, and modern design.</p>
               <p>Beyond coding, I love experimenting with new tools, enhancing my design skills, and staying up-to-date with the latest trends in tech. I'm always eager to take on projects that challenge me and help me grow as a developer.</p>
+			  <h3>Personal Information</h3>
+              <ul>
+                <li><strong>Name:</strong> Mark Jhed Brecia</li>
+                <li><strong>Age:</strong> 20</li>
+                <li><strong>Address:</strong> Prince Village Banlic, Cabuyao</li>
+                <li><strong>Contact Number:</strong> 09913869592</li>
+              </ul>
             </div>
           </div>
         </section>
